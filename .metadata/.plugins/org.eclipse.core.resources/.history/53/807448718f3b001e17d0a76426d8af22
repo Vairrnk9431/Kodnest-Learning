@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Bitwise {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the first number: ");
+		int first =scan.nextInt();
+		
+		System.out.println("Enter the Second number: ");
+		int second= scan.nextInt();
+		
+		swapUsingBitwise(first,second);
+		
+		System.out.println("After swapping:= "+ first + ", second = "+ second);
+		
+		
+		
+	}
+	public static void swapUsingBitwise(int a, int b) {
+       
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+	}
+
+}

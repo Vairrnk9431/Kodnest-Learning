@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Multiple&apos; to &apos;Multiple of Ten checker&apos;&#x0D;&#x0A;- Original element: &apos;Multiple&apos;&#x0D;&#x0A;- Renamed element: &apos;Multiple&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Multiple&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Multiple" name="Multiple of Ten checker" references="true" stamp="1692625107853" version="1.0"/>
+</session>
