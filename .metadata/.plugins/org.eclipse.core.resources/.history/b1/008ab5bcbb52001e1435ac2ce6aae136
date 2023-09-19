@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the length of  first array");
+		int arr1[]= new int [scan.nextInt()];
+		
+		System.out.println("Enter the elements of  first array");
+		
+		for(int i=0;i<=arr1.length-1;i++) {
+			arr1[i]=scan.nextInt();
+		}
+		
+		
+		System.out.println("Enter the length of second array");
+		int arr2[]= new int [scan.nextInt()];
+		
+		System.out.println("Enter the elements of  first array");
+		for(int i=0;i<=arr1.length-1;i++) {
+			arr1[i]=scan.nextInt();
+		}
+		
+		int combinedarrays=arr1.length+arr2.length;
+		int arr3[]=new int[combinedarrays];
+		
+		
+		for(int i=0;i<=arr1.length-1;i++) {
+			arr3[i]=arr1[i];
+		}
+		
+		for(int i=0;i<=arr2.length-1;i++) {
+			arr3[i+1]=arr3[i+1];
+		}
+		
+		for(int i=0;i<=combinedarrays-1;i++) {
+			System.out.println(arr3[i]+" ");
+			
+		}
+		
+	}
+
+}
